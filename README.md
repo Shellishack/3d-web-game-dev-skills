@@ -34,6 +34,47 @@ Guides agents through bootstrapping a modern 3D game prototype repository with:
 
 Place this repository where Codex can discover local skills, or copy an individual skill folder into your Codex skills directory. Each skill folder contains a valid `SKILL.md` with required frontmatter.
 
+## Install With `npx`
+
+This repo includes a dependency-free CLI that lets users choose which bundled skills to install.
+
+From npm after publication:
+
+```bash
+npx 3d-web-game-dev-skills
+```
+
+Directly from GitHub:
+
+```bash
+npx github:Shellishack/3d-web-game-dev-skills
+```
+
+Useful commands:
+
+```bash
+# List available skills
+npx github:Shellishack/3d-web-game-dev-skills -- --list
+
+# Install all bundled skills to ~/.codex/skills
+npx github:Shellishack/3d-web-game-dev-skills -- --all
+
+# Install one skill
+npx github:Shellishack/3d-web-game-dev-skills -- --skill generate-low-poly-model
+
+# Install to a custom directory
+npx github:Shellishack/3d-web-game-dev-skills -- --target ./skills
+
+# Replace an existing installed skill folder
+npx github:Shellishack/3d-web-game-dev-skills -- --skill generate-low-poly-model --force
+```
+
+The CLI binary is named `skills`, so after a global install it can also be run as:
+
+```bash
+skills
+```
+
 Example skill folder layout:
 
 ```text

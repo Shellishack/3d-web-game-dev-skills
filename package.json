@@ -1,0 +1,40 @@
+{
+  "name": "3d-web-game-dev-skills",
+  "version": "0.1.0",
+  "description": "Codex skills for 3D web game prototypes and procedural low-poly Three.js assets.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "skills": "./bin/skills.js",
+    "3d-web-game-dev-skills": "./bin/skills.js"
+  },
+  "files": [
+    "bin/",
+    "generate-low-poly-model/",
+    "initialize-game-repo/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "codex",
+    "skills",
+    "threejs",
+    "babylonjs",
+    "low-poly",
+    "procedural-generation",
+    "web-game-dev",
+    "electron",
+    "vite"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shellishack/3d-web-game-dev-skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Shellishack/3d-web-game-dev-skills/issues"
+  },
+  "homepage": "https://github.com/Shellishack/3d-web-game-dev-skills#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}
